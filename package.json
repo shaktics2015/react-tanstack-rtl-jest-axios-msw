@@ -35,7 +35,6 @@
     "moduleNameMapper": {
       "^axios$": "axios/dist/node/axios.cjs",
       "^msw$": "msw"
-
     },
     "coveragePathIgnorePatterns": [
       "<rootDir>/src/app/network/mockhandler/",
@@ -44,10 +43,10 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": 615,
-        "functions": 65,
-        "lines": 65,
-        "statements": 65
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
       }
     }
   },
