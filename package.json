@@ -2,6 +2,7 @@
   "name": "lf-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shaktics2015.github.io/react-tanstack-rtl-jest-axios-msw",
   "dependencies": {
     "@tanstack/react-query": "^5.37.1",
     "@tanstack/react-query-devtools": "^5.37.1",
