@@ -18,4 +18,4 @@ jobs:
       - name: Jest unit coverage comment
         uses: ArtiomTr/jest-coverage-report-action@v2        
         with:
-          test-script: npm run test-coverage
+          test-script: npm run test:coverage --watchAll=false
