@@ -13,6 +13,7 @@
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
     "axios": "^1.7.2",
+    "gh-pages": "^6.1.1",
     "identity-obj-proxy": "^3.0.0",
     "msw": "^2.3.0",
     "react": "^18.3.1",
@@ -28,8 +29,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test:ui": "react-scripts --ui",
-    "test:coverage": "npm run test -- --coverage --watchAll=false || exit 0"
-
+    "test:coverage": "npm run test -- --coverage --watchAll=false || exit 0",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "moduleNameMapper": {
