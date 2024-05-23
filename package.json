@@ -38,7 +38,8 @@
     },
     "coveragePathIgnorePatterns": [
       "<rootDir>/src/app/network/mockhandler/",
-      "<rootDir>/src/index.tsx"
+      "<rootDir>/src/index.tsx",
+      "<rootDir>/src/reportWebVitals.ts"
     ]
   },
   "eslintConfig": {
