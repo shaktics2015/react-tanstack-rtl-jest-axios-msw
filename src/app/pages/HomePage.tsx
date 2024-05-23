@@ -1,8 +1,8 @@
 // App.tsx
-import React from 'react';
+import {FC} from 'react';
 import { useQueryHook } from '../hooks/useQueryHook';
  
-const HomePage: React.FC = () => {
+const HomePage: FC = () => {
 
     const {data, isLoading, isSuccess} = useQueryHook("1")
   if(isLoading)   return  <div>Loading...</div>;

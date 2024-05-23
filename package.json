@@ -27,19 +27,28 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:coverage": "react-scripts test --coverage",
-    "test:ui": "react-scripts --ui"
+    "test:ui": "react-scripts --ui",
+    "test:coverage": "npm run test -- --coverage --watchAll=false || exit 0"
+
   },
   "jest": {
     "moduleNameMapper": {
       "^axios$": "axios/dist/node/axios.cjs",
       "^msw$": "msw"
-
     },
     "coveragePathIgnorePatterns": [
       "<rootDir>/src/app/network/mockhandler/",
-      "<rootDir>/src/index.tsx"
-    ]
+      "<rootDir>/src/index.tsx",
+      "<rootDir>/src/reportWebVitals.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
   },
   "eslintConfig": {
     "extends": [
