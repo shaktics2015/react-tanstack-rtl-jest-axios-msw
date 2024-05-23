@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![CI/CD](https://github.com/shaktics2015/react-tanstack-rtl-jest-axios-msw/workflows/Continuous%20Integration/badge.svg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -10,7 +10,7 @@ const response = {
 
  
 // Describe the network.
-export const handlers = [
+export const posts = [
   http.get('https://jsonplaceholder.typicode.com/posts/:id', ({ params }) => {
     return HttpResponse.json(response)
   }),
