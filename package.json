@@ -40,7 +40,15 @@
       "<rootDir>/src/app/network/mockhandler/",
       "<rootDir>/src/index.tsx",
       "<rootDir>/src/reportWebVitals.ts"
-    ]
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 65,
+        "functions": 65,
+        "lines": 65,
+        "statements": 65
+      }
+    }
   },
   "eslintConfig": {
     "extends": [
