@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-tanstack-rtl-jest-axios-msw/static/css/main.209f5058.css",
+    "main.js": "/react-tanstack-rtl-jest-axios-msw/static/js/main.06541038.js",
+    "static/js/453.4683a61f.chunk.js": "/react-tanstack-rtl-jest-axios-msw/static/js/453.4683a61f.chunk.js",
+    "index.html": "/react-tanstack-rtl-jest-axios-msw/index.html",
+    "main.209f5058.css.map": "/react-tanstack-rtl-jest-axios-msw/static/css/main.209f5058.css.map",
+    "main.06541038.js.map": "/react-tanstack-rtl-jest-axios-msw/static/js/main.06541038.js.map",
+    "453.4683a61f.chunk.js.map": "/react-tanstack-rtl-jest-axios-msw/static/js/453.4683a61f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.209f5058.css",
+    "static/js/main.06541038.js"
+  ]
+}
